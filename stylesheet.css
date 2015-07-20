@@ -1,46 +1,80 @@
-body{text-align: center;
+body{
+  font-size: 10px;
+}
+
+p{
+  padding-left: 10px;
 }
 
 .row{
-  width : 100%;
-  border: 1px solid black;
-  padding: 10px;
+  text-align: left;
+  border: 1px solid gray;
+  clear: both;
+  overflow: auto;
+  margin: 1%;
+  margin-top: 2%;
+}
+
+.rowCenter{
+  text-align: center;
+  border: 1px solid gray;
   clear: both;
   overflow: auto;
   margin: 1%;
 }
 
-
-.col-4{
- border: 1px solid black;
- float: left;
- height: 150px;
- width: 20%;
- margin:1%;
-}
-
-.col-8{
- border: 1px solid black;
- float: left;
- width: 70%;
- overflow: auto;
- margin: 1%;
- height: 300px;
+.rowTight{
+  text-align: left;
+  border: 1px solid gray;
+  overflow: auto;
+  margin: 1%;
+  padding-top:0;
+  padding-bottom: 20px;
+  margin-top: 2%;
 }
 
 .col-1{
+ text-align: center;
+ position: relative;
  border: 1px solid black;
  display: inline-block;
- width: 50px;
- height: 30px;
- margin: 0;
+ width: 7%;
+ height: 20px;
+ overflow: hidden;
+}
+
+.col-4{
+ border: 2px solid black;
+ float: left;
+ height: 100px;
+ width: 32%;
+ margin:1%;
+ text-align: center;
 }
 
 .col-6{
- border: 1px solid black;
+ border: 2px solid black;
  float: left;
  width: 45%;
- margin: 1.5%;
- height: 100px;
+ margin: 1%;
+ height: 80px;
+ text-align: center;
+}
+
+.col-8{
+ border: 2px solid black;
+ float: left;
+ width: 62%;
+ overflow: auto;
+ margin: 1%;
+ height: 180px;
+ text-align: center;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding:10px;
 }
 
