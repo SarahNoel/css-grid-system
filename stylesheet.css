@@ -6,6 +6,11 @@ p{
   padding-left: 10px;
 }
 
+#container{
+width: 80%;
+margin:auto;
+}
+
 .row{
   text-align: left;
   border: 1px solid gray;
@@ -39,7 +44,7 @@ p{
  border: 1px solid black;
  display: inline-block;
  width: 7%;
- height: 20px;
+ height: 23px;
  overflow: hidden;
 }
 
