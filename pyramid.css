@@ -1,23 +1,25 @@
-body{
-  color: white;
-  text-align: center;
-}
 
 .bottom{
   border: 1px black solid;
   margin: auto;
+  color: #009E8E;
+  background-color: #009E8E;
 }
 
 .l1{
   border: 1px black solid;
   width: 90%;
   margin: auto;
+  color: #1047A9;
+  background-color:#1047A9;
 }
 
 .l2{
   border: 1px black solid;
   width: 80%;
   margin: auto;
+  color: #FFA500;
+  background-color: #FFA500;
 
 }
 
@@ -25,14 +27,16 @@ body{
   border: 1px black solid;
   width: 70%;
   margin: auto;
-
-
+  color: #FF6C00;
+  background-color: #FF6C00;
 }
 
 .l4{
   border: 1px black solid;
   width: 60%;
   margin: auto;
+  color: #1E776D;
+  background-color: #1E776D;
 
 
 }
@@ -41,6 +45,8 @@ body{
   border: 1px black solid;
   width: 50%;
   margin: auto;
+  color: #29477F;
+  background-color: #29477F;
 
 }
 
@@ -48,6 +54,8 @@ body{
   border: 1px black solid;
   width: 40%;
   margin: auto;
+  color: #BF8D30;
+  background-color: #BF8D30;
 
 }
 
@@ -55,6 +63,8 @@ body{
   border: 1px black solid;
   width: 30%;
   margin: auto;
+  color: #BF6D30;
+  background-color: #BF6D30;
 
 }
 
@@ -62,6 +72,8 @@ body{
   border: 1px black solid;
   width: 20%;
   margin: auto;
+  color: #00675C;
+  background-color: #00675C;
 
 }
 
@@ -69,5 +81,7 @@ body{
   border: 1px black solid;
   width: 10%;
   margin: auto;
+  color: #052A6E;
+  background-color: #052A6E;
 
 }
